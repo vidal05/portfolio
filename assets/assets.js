@@ -80,18 +80,13 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
+        title: 'Frontend site',
         description: 'Web Design',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Data Science project',
+        description: 'Data Science',
         bgImage: '/work-3.png',
     },
     {
