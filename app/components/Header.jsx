@@ -17,8 +17,15 @@ const Header = () => {
             Software/Web Developer from Mexico with 7 years of experience.
         </p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-            <a className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2' href="#contact">contact me <Image src={assets.right_arrow_white} alt='' className='w-4' /></a>
-            <a className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2' href="/sample-resume.pdf" download>resume <Image src={assets.download_icon} alt='' className='w-4' /></a>
+            <a className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2
+                          dark:bg-transparent' href="#contact">
+                contact me 
+                <Image src={assets.right_arrow_white} alt='' className='w-4' />
+            </a>
+            <a className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:text-black dark:bg-white' href="/sample-resume.pdf" download>
+                resume 
+                <Image src={assets.download_icon} alt='' className='w-4' />
+            </a>
         </div>
     </div>
   )
